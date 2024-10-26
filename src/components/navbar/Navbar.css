@@ -1,0 +1,51 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: greenyellow;
+
+  padding: 2rem;
+  color: rgb(71, 71, 71);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    font-size:large;
+}
+ul li a {
+text-decoration: none;
+color: rgb(71, 71, 71);
+}
+
+ul li a:hover{
+color: rgb(88, 145, 102);
+}
+
+button{
+    background-color: rgb(88, 145, 102);
+    color: white;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
