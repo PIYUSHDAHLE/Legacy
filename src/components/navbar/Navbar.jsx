@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <nav>
-        <div className="logo"><i class="ri-school-fill"></i> <p>Legacy</p></div>
+        <div className="logo"><img src="./src/assets/main-logo.png" alt="NA" /><p>Legacy</p></div>
         <div className="right">
             <ul>
                 <li><a href="#">Home</a></li>
