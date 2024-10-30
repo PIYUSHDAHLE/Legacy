@@ -18,21 +18,21 @@ const page2 = () => {
       <div className="collection">
 
         <div className=" program">
-           <img src={pic1} className='w-60' alt="" />
+           <img src={pic1} alt="" />
           <div className="caption">
             <img src={logo1} className='w-10' alt="" />
             <h1>Graduation Degree</h1>
           </div>
         </div>
         <div className=" program">
-           <img src={pic2} className='w-60' alt="" />
+           <img src={pic2} alt="" />
           <div className="caption">
             <img src={logo2} className='w-10' alt="" />
             <h1>Master Degree</h1>
           </div>
         </div>
         <div className=" program">
-           <img src={pic3} className='w-60' alt="" />
+           <img src={pic3} alt="" />
           <div className="caption">
             <img src={logo3} className='w-10' alt="" />
             <h1>Ph. D. Degree</h1>
