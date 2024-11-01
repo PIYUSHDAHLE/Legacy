@@ -1,0 +1,97 @@
+.testi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testi h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: yellowgreen;
+}
+.testi h1{
+    font-family: "Raleway", sans-serif;
+    color: rgb(63, 63, 63);
+    font-size: 30px;
+}
+
+.t-box{
+    margin: 80px;
+    padding: 0 5rem;
+    position: relative;
+}
+
+.btn-left, .btn-right{
+position: absolute;
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+color: yellowgreen;
+font-size: 3rem;
+cursor: pointer;
+}
+
+.btn-left{
+    right: auto;
+    left: 0;
+}
+
+.slider{
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+    width: 200%;
+    transition: 0.5s;
+}
+
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+
+.slide{
+    width: 100%;
+    padding: 3rem 2rem;
+    background-color: rgb(220, 248, 200);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.slide img{
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ object-fit: cover;
+ object-position: top;
+ box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.user-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-info .mini{
+    color: rgb(79, 79, 79);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 700;
+}
+
+.user-info .mini span{
+font-size: 12px;
+}

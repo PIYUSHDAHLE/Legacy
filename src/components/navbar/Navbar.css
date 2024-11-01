@@ -61,6 +61,7 @@ button{
     font-size: 15px;
     border: none;
     border-radius: 5px;
+    font-weight:500 ;
 }
 button:hover{
     background-color: black;
