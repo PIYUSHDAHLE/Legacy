@@ -7,10 +7,12 @@ import Campus from './components/Campus/Campus'
 import Testimonial from './components/Testimonial/Testimonial'
 import Contact from './components/Contact/Contact'
 import Footer from './components/footer/Footer'
+import { BrowserRouter } from 'react-router-dom';
 
 
 const App = () => {
   return (
+    <BrowserRouter>
     <div>
       <Navbar/>
       <Page1/>
@@ -21,6 +23,7 @@ const App = () => {
       <Contact/>
       <Footer/>
     </div>
+     </BrowserRouter>
   )
 }
 

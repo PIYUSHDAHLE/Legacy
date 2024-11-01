@@ -59,7 +59,8 @@
  transition: 0.25s all ease-in;
 }
 .program .caption:hover{
-    background-color: rgba(2, 193, 53, 0.6);
+    background-color: rgba(153, 205, 50, 0.79);
+    cursor: pointer;
     opacity: 1;
     transform: translateY(1);
 }
