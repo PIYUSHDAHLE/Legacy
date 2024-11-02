@@ -95,3 +95,86 @@ cursor: pointer;
 .user-info .mini span{
 font-size: 12px;
 }
+
+@media (max-width: 768px) {
+    .testi h2 {
+        font-size: 20px;
+    }
+
+    .testi h1 {
+        font-size: 24px;
+    }
+
+    .t-box {
+        margin: 40px;
+        padding: 0 2rem;
+    }
+
+    .btn-left, .btn-right {
+        font-size: 2rem;
+        display: none;
+    }
+
+    .slider ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slider ul li {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .slide {
+        padding: 2rem 1rem;
+    }
+
+    .slide img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .user-info {
+        gap: 10px;
+    }
+
+    .user-info .mini span {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testi h2 {
+        font-size: 18px;
+    }
+
+    .testi h1 {
+        font-size: 20px;
+    }
+
+    .t-box {
+        margin: 20px;
+        padding: 0 1rem;
+    }
+
+    .btn-left, .btn-right {
+        font-size: 1.5rem;
+    }
+
+    .slide {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .slide img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user-info {
+        gap: 8px;
+    }
+
+    .user-info .mini span {
+        font-size: 8px;
+    }
+}

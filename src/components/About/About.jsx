@@ -23,9 +23,6 @@ const About = () => {
           </div>
           <div className='about-image'>
             <img src={aboutImg} className='img-one' alt='About Us' />
-            <div className="p-btn">
-            <i class="ri-play-circle-fill"></i>
-            </div>
           </div>
         </div>
     </div>

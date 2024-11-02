@@ -29,3 +29,36 @@
     text-align: center;
     color: #222222;
 }
+
+@media (max-width: 1024px) {
+    .content {
+      padding: 10rem 5rem;
+    }
+  
+    .content h1 {
+      font-size: 4rem;
+    }
+  
+    .content p {
+      padding: 0 5rem;
+      font-size: 14px;
+    }
+  }
+  
+  /* Mobile view adjustments */
+  @media (max-width: 768px) {
+    .content {
+
+      padding: 5rem 2rem;
+      padding-top: 20rem;
+    }
+  
+    .content h1 {
+      font-size: 3rem;
+    }
+  
+    .content p {
+      padding: 0 2rem;
+      font-size: 13px;
+    }
+  }

@@ -1,71 +1,140 @@
-nav{
+/* Base navbar styling */
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 10vh;
   background-color: rgba(172, 255, 47, 0.432);
-position: fixed;
-top: 0;
-left: 0;
-z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
   padding: 2rem;
   color: rgb(71, 71, 71);
   font-family: "Poppins", sans-serif;
 }
 
-.dark-nav{
+/* Dark theme for sticky navbar */
+.dark-nav {
   background-color: yellowgreen;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 2rem;
+/* Logo styling */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
 }
 
-.logo img{
-    width: 40px;
+.logo img {
+  width: 40px;
 }
 
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.right ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
-    font-size:large;
-}
-ul li{
-text-decoration: none;
-color: rgb(71, 71, 71);
-font-weight: 500;
+/* Menu styling */
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
-ul li:hover{
-color: #D76A39;
-cursor: pointer;
+.right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-size: large;
 }
 
-button, .btn{
-    background-color: yellow;
-    color: #000000;
-    padding: 7px;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    font-weight:500 ;
-  }
-  .btn:hover , button:hover{
+ul li {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-weight: 500;
+}
+
+ul li:hover {
+  color: #D76A39;
+  cursor: pointer;
+}
+
+/* Button styling */
+button, .btn {
+  background-color: yellow;
   color: #000000;
-    background-color: orange;
-    cursor: pointer;
+  padding: 7px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.btn:hover, button:hover {
+  color: #000000;
+  background-color: orange;
+  cursor: pointer;
+}
+
+/* Responsive Navbar Menu Button */
+.menu-btn {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-btn .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: 0.3s;
+}
+
+/* Responsive styling for mobile and tablet */
+@media (max-width: 768px) {
+  .right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .right.open {
+    transform: translateX(0);
+  }
+
+  .right ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+}
+
+/* Close button styling */
+.close-btn {
+  position: absolute;
+  top: 20px; /* Adjust according to your design */
+  right: 20px; /* Adjust according to your design */
+  background-color: transparent;
+  border: none;
+  font-size: 24px; /* Size of the close icon */
+  color: rgb(71, 71, 71); /* Color of the close icon */
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #D76A39; /* Change color on hover */
 }

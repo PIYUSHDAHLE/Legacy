@@ -64,3 +64,53 @@
     opacity: 1;
     transform: translateY(1);
 }
+
+@media (max-width: 1024px) {
+
+    .collection {
+        flex-direction: column;
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .program > img {
+        width: 15rem;
+    }
+
+    .title-box h5 {
+        font-size: 1.8rem;
+    }
+
+    .title-box h1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+ 
+    .container {
+        padding: 2rem;
+    }
+
+    .collection {
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .title-box h5 {
+        font-size: 1.5rem;
+    }
+
+    .title-box h1 {
+        font-size: 0.8rem;
+    }
+
+    .program > img {
+        width: 12rem;
+    }
+
+    .program .caption {
+        gap: 3px;
+        font-size: 0.9rem;
+    }
+}
