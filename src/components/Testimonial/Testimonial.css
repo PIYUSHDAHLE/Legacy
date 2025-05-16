@@ -118,6 +118,7 @@ font-size: 12px;
     .slider ul {
         flex-direction: column;
         width: 100%;
+        transform: translateX(-50%,-50%);
     }
 
     .slider ul li {

@@ -10,7 +10,7 @@ import logo3 from '../../assets/log-3.png'
 
 const page2 = () => {
   return (
-    <div className='container'>
+    <div className='container-box'>
       <div className="title-box">
         <h5>Programs & Services</h5>
         <h1>What We Offer</h1>
