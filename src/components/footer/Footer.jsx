@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </section>
         <section className='s2'>
-                 <p>This website developed by Piyush Dahle © 2024 Legacy All rights reserved.</p>
+                 <p>This website developed by Piyush Dahle © {new Date().getFullYear()} Legacy All rights reserved.</p>
         </section>
     </div>
   )
