@@ -1,113 +1,110 @@
-.about-container{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 100%;
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 8rem;
+  width: 100%;
 }
-
 .about-container .about-text {
-    width:45%;
+  width: 45%;
 }
-.about-container .about-text h2{
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    color: yellowgreen;
+.about-container .about-text h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: yellowgreen;
 }
-.about-container .about-text h1{
-    font-family: "Raleway", sans-serif;
-    color: rgb(63, 63, 63);
-    font-size: 30px;
+.about-container .about-text h1 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(63, 63, 63);
+  font-size: 30px;
 }
-.about-container .about-text p{
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    color: grey;
+.about-container .about-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: grey;
 }
-
-.img-one{
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
-}
-
-.about-container .about-image {
-    position: relative;
-    width: 45%;
-    padding: 1rem;
-    }
-    
-.p-btn{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 75%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.img-one {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.ri-play-circle-fill{
-    font-size: 70px;
-    color: rgba(136, 246, 45, 0.838);
+.p-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.ri-play-circle-fill:hover{
-    cursor: pointer;
-    color: rgb(78, 148, 21);
+.ri-play-circle-fill {
+  font-size: 70px;
+  color: rgba(136, 246, 45, 0.838);
+}
+.ri-play-circle-fill:hover {
+  cursor: pointer;
+  color: rgb(78, 148, 21);
 }
 
 @media (max-width: 1024px) {
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem;
-    }
-
-    .about-container .about-text,
-    .about-container .about-image {
-        width: 80%;
-        text-align: center;
-    }
-
-    .img-one {
-        width: 80%;
-    }
-
-    .about-container .about-text h2 {
-        font-size: 22px;
-    }
-
-    .about-container .about-text h1 {
-        font-size: 26px;
-    }
-
-    .about-container .about-text p {
-        font-size: 14px;
-    }
+  .about-container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  .about-container .about-text,
+  .about-container .about-image {
+    width: 100%;
+    text-align: center;
+  }
+  .img-one {
+    width: 80%;
+  }
+  .about-container .about-text h2 {
+    font-size: 22px;
+  }
+  .about-container .about-text h1 {
+    font-size: 26px;
+  }
+  .about-container .about-text p {
+    font-size: 14px;
+  }
+  .about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
 /* Responsive for mobile devices */
 @media (max-width: 768px) {
-    .about-container .about-text,
-    .about-container .about-image {
-        width: 100%;
-    }
-
-    .img-one {
-        width: 100%;
-    }
-
-    .about-container .about-text h2 {
-        font-size: 20px;
-    }
-
-    .about-container .about-text h1 {
-        font-size: 24px;
-    }
-
-    .about-container .about-text p {
-        font-size: 13px;
-    }
+  .about-container .about-text,
+  .about-container .about-image {
+    width: 100%;
+  }
+  .img-one {
+    width: 100%;
+  }
+  .about-container .about-text h2 {
+    font-size: 20px;
+  }
+  .about-container .about-text h1 {
+    font-size: 24px;
+  }
+  .about-container .about-text p {
+    font-size: 13px;
+  }
+  .about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -1,4 +1,3 @@
-/* Base navbar styling */
 nav {
   display: flex;
   justify-content: space-between;
@@ -9,18 +8,16 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
-  padding: 2rem;
+  z-index: 99999999;
+  padding: 2rem 8rem;
   color: rgb(71, 71, 71);
   font-family: "Poppins", sans-serif;
 }
 
-/* Dark theme for sticky navbar */
 .dark-nav {
   background-color: yellowgreen;
 }
 
-/* Logo styling */
 .logo {
   display: flex;
   justify-content: center;
@@ -33,7 +30,6 @@ nav {
   width: 40px;
 }
 
-/* Menu styling */
 .right {
   display: flex;
   justify-content: center;
@@ -61,7 +57,6 @@ ul li:hover {
   cursor: pointer;
 }
 
-/* Button styling */
 button, .btn {
   background-color: yellow;
   color: #000000;
@@ -78,7 +73,6 @@ button, .btn {
   cursor: pointer;
 }
 
-/* Responsive Navbar Menu Button */
 .menu-btn {
   display: none;
   flex-direction: column;
@@ -93,7 +87,12 @@ button, .btn {
   transition: 0.3s;
 }
 
-/* Responsive styling for mobile and tablet */
+@media (max-width:1024px) {
+  nav{
+      padding: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .right {
     position: fixed;
@@ -123,18 +122,17 @@ button, .btn {
   }
 }
 
-/* Close button styling */
 .close-btn {
   position: absolute;
-  top: 20px; /* Adjust according to your design */
-  right: 20px; /* Adjust according to your design */
+  top: 20px; 
+  right: 20px; 
   background-color: transparent;
   border: none;
-  font-size: 24px; /* Size of the close icon */
-  color: rgb(71, 71, 71); /* Color of the close icon */
+  font-size: 24px; 
+  color: rgb(71, 71, 71); 
   cursor: pointer;
 }
 
 .close-btn:hover {
-  color: #D76A39; /* Change color on hover */
+  color: #D76A39; 
 }
