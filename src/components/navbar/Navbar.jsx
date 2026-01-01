@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import Logo from '../../assets/main-logo.png'
 import "./Navbar.css";
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className={`${sticky ? "dark-nav" : ""}`}>
       <div className="logo">
-        <img src="./src/assets/main-logo.png" alt="NA" />
+        <img src={Logo} alt="NA" />
         <p>Legacy</p>
       </div>
       <div className={`right ${menuOpen ? "open" : ""}`}>
@@ -97,5 +98,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
