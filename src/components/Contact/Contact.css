@@ -114,6 +114,10 @@ form {
 }
 
 @media (max-width: 480px) {
+    .main-contact-box{
+      padding: 20px;
+    }
+
     .contact h1 {
         font-size: 20px;
     }
@@ -124,7 +128,7 @@ form {
 
     form {
         width: 100%;
-        padding: 8px;
+        padding: 20px;
     }
 
     input[type="text"],

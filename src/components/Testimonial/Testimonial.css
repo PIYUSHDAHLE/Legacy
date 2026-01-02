@@ -105,8 +105,12 @@
     display: none;
   }
 
+  .testi {
+  padding: 0;
+}
+
   .t-box {
-    padding: 0 1.5rem;
+    padding: 0;
   }
 
   .slider ul {
