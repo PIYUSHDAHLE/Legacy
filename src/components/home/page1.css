@@ -1,6 +1,6 @@
 .box{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background:linear-gradient( rgba(94, 226, 17, 0.182), rgba(226, 226, 226, 0.655)), url('../../assets/page1-img.jpg');
     background-position: top;
     background-size: cover ;
